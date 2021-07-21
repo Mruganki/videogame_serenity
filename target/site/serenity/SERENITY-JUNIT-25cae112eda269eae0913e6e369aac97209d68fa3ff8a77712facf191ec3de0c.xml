@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="com.videogame.videogameinfo.VideogameCRUDtestWithSteps" skipped="0" tests="3" time="4.16" timestamp="2021-07-21T14:11:32.528+01:00[Europe/London]"><testcase classname="com.videogame.videogameinfo.VideogameCRUDtestWithSteps" name="This will create new video game and verifyid"/><testcase classname="com.videogame.videogameinfo.VideogameCRUDtestWithSteps" name="This will get videogame by id"/><testcase classname="com.videogame.videogameinfo.VideogameCRUDtestWithSteps" name="This will update videogame by id"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;405&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;405&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;405&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+com.videogame.videogameinfo.VideogameCRUDtestWithSteps.test03(VideogameCRUDtestWithSteps.java:51)&#13;
+</system-err></testcase></testsuite>
